@@ -1,0 +1,19 @@
+.pending_transaction .title {
+  font-weight: bold;
+  font-size: 18px;
+  min-width: 120px;
+}
+.pending_transaction .value {
+  font-size: 18px;
+  word-break: break-all;
+}
+.approve_btn {
+  background-color: #34c38f;
+  border: none;
+  color: #fff;
+}
+.approve_btn:hover,
+.approve_btn:focus {
+  background-color: #1a9b6c;
+  color: #fff;
+}

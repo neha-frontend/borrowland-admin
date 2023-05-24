@@ -1,0 +1,76 @@
+input[type='number']::-webkit-outer-spin-button,
+input[type='number']::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.faq__box {
+  margin: 0 10px;
+}
+
+.form-control:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #2b32b2;
+  outline: 0;
+  box-shadow: none;
+}
+.mdb-datatable-filter {
+  display: none !important;
+}
+
+.react-tel-input input.form-control {
+  width: 100%;
+  height: 50px;
+}
+.react-tel-input .form-control.is-invalid {
+  border-color: #f46a6a;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12' width='12' height='12' fill='none' stroke='%23f46a6a'%3e%3ccircle cx='6' cy='6' r='4.5'/%3e%3cpath stroke-linejoin='round' d='M5.8 3.6h.4L6 6.5z'/%3e%3ccircle cx='6' cy='8.2' r='.6' fill='%23f46a6a' stroke='none'/%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-position: right calc(0.375em + 0.235rem) center;
+  background-size: calc(0.75em + 0.47rem) calc(0.75em + 0.47rem);
+}
+.is-invalid .react-tel-input .flag-dropdown {
+  border-color: #f46a6a;
+}
+input#horizontal-email-Input.deposit__usd {
+  border: none;
+}
+.deposit__field__usd {
+  width: 100%;
+  padding: 0.4rem 0.7rem;
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 0.3;
+  color: #495057;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+}
+
+.form-group {
+  width: 100%;
+}
+
+.delete-button-card {
+  display: flex;
+  justify-content: space-around;
+}
+.modal620 {
+  max-width: 620px;
+}
+.minWidth_100 {
+  min-width: 100px;
+}
+.h_20 {
+  height: 20px;
+}
+.w_20 {
+  width: 20px;
+}
+.btn-success {
+  width: 90px;
+  margin-right: 0;
+}
+.btn-danger {
+  width: 90px;
+}

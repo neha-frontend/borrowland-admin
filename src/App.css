@@ -1,0 +1,132 @@
+.dropdownColor {
+  background-color: #2b32b2;
+  border-color: #2b32b2;
+}
+
+.d-block {
+  display: block;
+}
+select.form-control {
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAUCAMAAACtdX32AAAAdVBMVEUAAAD///8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAhMdQaAAAAJ3RSTlMAAAECAwQGBwsOFBwkJTg5RUZ4eYCHkJefpaytrsXGy8zW3+Do8vNn0bsyAAAAYElEQVR42tXROwJDQAAA0Ymw1p9kiT+L5P5HVEi3qJn2lcPjtIuzUIJ/rhIGy762N3XaThqMN1ZPALsZPEzG1x8LrFL77DHBnEMxBewz0fJ6LyFHTPL7xhwzWYrJ9z22AqmQBV757MHfAAAAAElFTkSuQmCC);
+  background-position: 100%;
+  background-repeat: no-repeat;
+  background-size: 25px 16px;
+  /* appearance: auto; */
+}
+.content_Fit {
+  padding: calc(80px + 1.25rem) 0.625rem 160px;
+}
+
+.ml-1 {
+  margin-left: 10px;
+}
+.ml-5{
+  margin-left: 2rem;
+}
+.mr-5 {
+  margin-right: 5px;
+}
+.quick-stats-active {
+  background-color: #0d289a;
+}
+.quick-stats-btn:hover {
+  background-color: #0d289a !important;
+}
+.mright-1 {
+  margin-right: 10px;
+}
+.w-145 {
+  min-width: 160px;
+}
+.h-4 {
+  height: 45px !important;
+}
+
+.pagination {
+  display: flex;
+  justify-content: start;
+}
+
+.color-red {
+  color: red;
+  font-weight: 600;
+}
+.rdrCalendarWrapper {
+  position: absolute;
+  z-index: 9999;
+  right: 380px;
+  /* top: 29px; */
+  margin-top: 50px;
+}
+.color-green {
+  color: green;
+  font-weight: 600;
+}
+.title-color {
+  color: #2b32b2;
+}
+.cursor-pointer {
+  cursor: pointer !important;
+}
+.button-color {
+  background-color: #2b32b2;
+  color: #fff;
+  border: none;
+}
+
+.button-color:hover {
+  background-color: #0d6efd !important;
+}
+
+.modal-dialog {
+  max-width: 550px;
+}
+.btn-chart-filter {
+  font-size: 12px;
+  margin-right: 5px;
+  padding: 3px;
+  cursor: pointer;
+}
+.btn-chart-active {
+  background: #8fda88;
+  color: #fff;
+  border-radius: 50px;
+}
+fieldset.scheduler-border {
+  border: 1px groove #ddd !important;
+  padding: 0 1.4em 1.4em 1.4em !important;
+  margin: 0 0 1.5em 0 !important;
+  -webkit-box-shadow: 0px 0px 0px 0px #000;
+  box-shadow: 0px 0px 0px 0px #000;
+}
+
+legend.scheduler-border {
+  font-size: 1.2em !important;
+  font-weight: bold !important;
+  text-align: left !important;
+  width: auto;
+  padding: 0 10px;
+  border-bottom: none;
+  position: relative;
+  top: -13px;
+  background: #fff;
+}
+.float-right {
+  float: right;
+}
+.skeleton {
+  height: 95px;
+  width: 260px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  background-color: lightgray;
+  animation: skeleton-loading 1s linear infinite alternate;
+}
+@keyframes skeleton-loading {
+  0% {
+    background-color: hsl(200, 20%, 80%);
+  }
+  100% {
+    background-color: hsl(200, 20%, 95%);
+  }
+}

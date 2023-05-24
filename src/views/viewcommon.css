@@ -1,0 +1,78 @@
+.comingsoon-card {
+    /* margin-top: 107px; */
+    position: absolute;
+    /* align-items: center; */
+    /* vertical-align: baseline; */
+    height: 115px;
+    background: white;
+    top: 50%;
+    width: 450px;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    text-align: center;
+    border-radius: 10px;
+    align-items: center;
+    font-size: 35px;
+    line-height: 115px;
+    /* box-shadow: white 1px 2px; */
+}
+
+.investor-background{
+    background: white;
+    border-radius: 5px;
+}
+.investor-maincontainer{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.commingsoon-container{
+    position: relative;
+    margin: auto;
+    height: 100vh;
+}
+
+.card-body-card{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.property-management-card-details{
+    display: flex;
+    flex-direction: column;
+}
+.property-management-card{
+    border-radius:10px;
+    display:flex;
+    justify-content: space-around;
+    padding: 10px;
+    align-items: center;
+}
+.button-header{
+    width: 100%;
+    max-width: 400px;
+    height: 40px;
+}
+.vote-card{
+    width: 100%;
+    max-width: 500px;
+}
+.summary{
+    max-width: 800px;
+    margin-right: 10px;
+}
+
+.summary,.description p{
+   text-align: justify;
+}
+.proposal-detail {
+    font-size: 17px;
+    font-weight: 500;
+}
+.progress-vote{
+    height: 15px;
+    /* margin: 10px 0px; */
+}
+.vote-button{
+    max-width: 150px;
+}

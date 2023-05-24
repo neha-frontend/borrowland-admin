@@ -1,0 +1,49 @@
+{
+	"parser": "babel-eslint",
+	"parserOptions": {
+		"sourceType": "module",
+		"allowImportExportEverywhere": false,
+		"codeFrame": false
+	},
+	"extends": ["airbnb", "prettier"],
+	"env": {
+		"browser": true,
+		"jest": true
+	},
+	"rules": {
+		"max-len": ["error", { "code": 50000 }],
+		"prefer-promise-reject-errors": ["off"],
+		"jsx-a11y/anchor-is-valid":["off"],
+		"react/jsx-filename-extension": ["off"],
+		"import/prefer-default-export":["off"],
+		"jsx-a11y/no-noninteractive-element-interactions":["off"],
+		"jsx-a11y/interactive-supports-focus":["off"],
+		"react/prop-types": 0,
+		"no-return-assign": ["off"],
+		"no-useless-escape":["off"],
+		"no-param-reassign":["off"],
+		"react/jsx-props-no-spreading": ["off"],
+		"react/jsx-curly-newline": ["off"],
+		"react/react-in-jsx-scope": ["off"],
+		"react/destructuring-assignment": ["off"],
+		"jsx-a11y/label-has-associated-control": "off",
+		"jsx-a11y/click-events-have-key-events": ["off"],
+		"jsx-a11y/no-static-element-interactions":["off"],	
+		"jsx-a11y/control-has-associated-label":["off"]	,
+		"global-require": 0,
+		// "jsx-a11y/anchor-is-valid": [
+		// 	"error",
+		// 	{
+		// 		"components": ["Link","i"],
+		// 		"specialLink": ["hrefLeft", "hrefRight"],
+		// 		"aspects": ["invalidHref", "preferButton"]
+		// 	}
+		// ],
+		"import/no-cycle": "off",
+		"no-underscore-dangle": ["error", { "allow": ["_id"] }],
+		"func-names": ["error", "never"],
+		"no-nested-ternary": ["off"],
+		"no-lonely-if" : ["off"]
+	},
+	"settings": { "import/resolver": { "node": { "paths": ["src"] } } }
+}
